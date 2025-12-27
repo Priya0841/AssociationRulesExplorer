@@ -74,7 +74,7 @@ def plot_rules_network(rules):
                     )
     st.plotly_chart(fig, use_container_width=True)
 
-st.title("Market Basket Analysis with Summary Insights")
+st.title("Market Basket Analyser")
 
 uploaded_file = st.file_uploader("Upload transaction CSV", type=["csv"])
 sample_frac = st.sidebar.slider("Fraction of transactions to analyze", 0.01, 1.0, 0.3, 0.01)
